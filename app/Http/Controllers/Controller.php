@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\CurrencyPair;
+use App\Http\Resources\CurrencyPairsCollection;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -16,7 +17,7 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     /**
-     * @return Collection|bool current pairs or false if fail
+     * @return CurrencyPairsCollection|bool current pairs or false if fail
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public static function updateCurrencyPairs()
@@ -30,21 +31,23 @@ class Controller extends BaseController
             return false;
         }
         $pairs=\GuzzleHttp\json_decode($pairs->getBody()->getContents());
-        $pairs = collect($pairs->rates)->map(function ($rate,$currency) use ($pairs){
+        $now=Carbon::now();
+        $pairs = collect($pairs->rates)->map(function ($rate,$currency) use ($pairs, $now){
             if ($pairs->base!=$currency) return [
                 'in'=>$pairs->base,
                 'out'=>$currency,
                 'rate'=>$rate,
-                'created_at'=>Carbon::now(),
-                'updated_at'=>Carbon::now()
+                'created_at'=>$now,
+                'updated_at'=>$now
             ];
         })->filter()->values();
-        return CurrencyPair::insert($pairs->toArray())?$pairs:false;
+        return CurrencyPair::insert($pairs->toArray())? new CurrencyPairsCollection (CurrencyPair::where('created_at',$now)->get()):false;
     }
 
+    /**
+     * @return CurrencyPairsCollection
+     */
     public static function getHistory(){
-        return CurrencyPair::all()
-            ->groupBy('created_at')
-            ->makeHidden(['id','created_at','updated_at']);
+        return new CurrencyPairsCollection(CurrencyPair::all());
     }
 }
