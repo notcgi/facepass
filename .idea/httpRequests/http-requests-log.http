@@ -1,0 +1,369 @@
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T121813.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T121733.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T121700.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T121533.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T121039.500.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120943.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120923.500.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120846.500.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120623.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120607.500.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120525.500.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates/history
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120453.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120434.200.json
+
+###
+
+GET http://localhost:8005/api/exchange-rates
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T120339.500.json
+
+###
+
+GET http://localhost:8005/api
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T113955.200.html
+
+###
+
+GET http://localhost:8005/api
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T113844.200.html
+
+###
+
+GET http://localhost:8005/api
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T113805.200.html
+
+###
+
+GET http://localhost:8005/api
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T113705.200.html
+
+###
+
+GET http://localhost:8005/api
+Accept: application/json
+Content-Type: application/json
+
+<> 2020-08-25T113446.500.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T113404.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T113237.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T113211.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T113049.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T113003.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T112923.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T112908.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T112849.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111949.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111934.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111815.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111527.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111502.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111431.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T111107.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110933.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110903.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110813.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110648.500.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110523.200.html
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110448.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110423.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110348.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110311.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110255.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110206.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110055.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T110000.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T105948.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T105919.200.json
+
+###
+
+GET http://localhost:8005/api
+Content-Type: application/json
+
+<> 2020-08-25T105808.500.html
+
+###
+
